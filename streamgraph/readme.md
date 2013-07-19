@@ -1,4 +1,3 @@
-XHTML Header: <script> $('pre').each(function() { var p = $(this); var id = p.prevAll('h5[id*="."],h4[id*="."],h3[id*="."],h2[id*="."],h1[id*="."]').attr('id'); id = id.split('.'); if (id.length > 1) p.addClass(id[1]); </script>
 
 # D3.js Streamgraph
 
