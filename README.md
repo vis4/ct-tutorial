@@ -1,2 +1,1 @@
-ct-beispiel-streamgraph
-=======================
+Sample visualizations I created for an article in German computer magazine **c't**.

@@ -1,0 +1,27 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  margin: auto;
+  position: relative;
+  width: 960px;
+}
+h1 {
+  position: absolute;
+  top: 0px;
+  left: 17px;
+}
+svg { margin-top: 60px;}
+.axis { shape-rendering: crispEdges; }
+.axis line { stroke: #000; }
+.axis path { display: none; }
+path.Braunkohle { fill: #693E3B; stroke: #693E3B; }
+path.Steinkohle { fill: #8C5B49; stroke: #8C5B49; }
+path.Mineralöl { fill: #BF9B7A; stroke: #BF9B7A; }
+path.Erdgas { fill: #EBDFCE; stroke: #EBDFCE; }
+path.Kernenergie { fill: #E6BF86; stroke: #D1AE78; }
+path.Erneuerbare { fill: #759B87; stroke: #799979; }
+path.Sonstige { fill: #ccc; stroke: #bbb; }
+text.label {
+  fill: #fff;
+  text-shadow: 1px 1px 8px #000
+}
